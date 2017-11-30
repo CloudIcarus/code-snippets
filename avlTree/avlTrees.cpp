@@ -518,8 +518,8 @@ class BinaryTreeNodeDescriptor
 
     string key() const {
         std::stringstream ss;
-        ss << node->value;
-        //ss << node->weight;
+        //ss << node->value;
+        ss << node->weight;
         //ss << node->value << ":" << node->weight;
         return ss.str();
     }

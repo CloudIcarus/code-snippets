@@ -192,29 +192,29 @@ void testAdvRebalance4() {
   string testName = "testAdvRebalance2";
 
   AVLTree at = AVLTree();
-  at.insert(  66); //at.print();
-  at.insert(  12); //at.print();
-  at.insert(   0); //at.print();
-  at.insert(  36); //at.print();
-  at.insert( -12); //at.print();
-  at.insert( -36); //at.print();
-  at.insert( -24); //at.print();
-  at.insert(  60); //at.print();
-  at.insert(  20); //at.print();
-  at.insert(   1); //at.print();
-  at.insert(   2); //at.print();
-  at.insert(   3); //at.print();
-  at.insert( -60); //at.print();
-  at.insert(  50); //at.print();
-  at.insert(  51); //at.print();
-  at.insert(  52); //at.print();
-  at.insert(  53); //at.print();
+  at.insert(  66); at.print();
+  at.insert(  12); at.print();
+  at.insert(   0); at.print();
+  at.insert(  36); at.print();
+  at.insert( -12); at.print();
+  at.insert( -36); at.print();
+  at.insert( -24); at.print();
+  at.insert(  60); at.print();
+  at.insert(  20); at.print();
+  at.insert(   1); at.print();
+  at.insert(   2); at.print();
+  at.insert(   3); at.print();
+  at.insert( -60); at.print();
+  at.insert(  50); at.print();
+  at.insert(  51); at.print();
+  at.insert(  52); at.print();
+  at.insert(  53); at.print();
   at.insert(  54); at.print();
 }
 
 /* 
 
-g++ -std=c++11 -o avlTrees avlTrees_main.cpp avlTrees.cpp
+g++ -Wall -std=c++11 -o avlTrees avlTrees_main.cpp avlTrees.cpp
 */
 int main() {
 
